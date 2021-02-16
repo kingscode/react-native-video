@@ -641,6 +641,7 @@ public class ReactVideoView extends ScalableVideoView implements
             if (isCompleted && mVideoDuration != 0 && msec < mVideoDuration) {
                 isCompleted = false;
             }
+            mMediaPlayer.start();
         }
     }
 
